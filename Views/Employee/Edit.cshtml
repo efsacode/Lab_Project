@@ -1,0 +1,27 @@
+﻿@model Application1.Models.Employee
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Surname"></label>
+        <input asp-for="Surname" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Position"></label>
+        <input asp-for="Position" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+
+    <item-link controller-name="Employee" action-name="Details" item-id="@Model.Id" display-text="Details"></item-link>
+   
+    <item-link controller-name="Employee" action-name="Update" item-id="@Model.Id" display-text="Update"></item-link>
+
+    <a asp-action="Index">Back to List</a>
+    
+
+</form>
