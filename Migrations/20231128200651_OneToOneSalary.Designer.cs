@@ -4,6 +4,7 @@ using Application1.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Application1.Migrations
 {
     [DbContext(typeof(Application1Context))]
-    partial class Application1ContextModelSnapshot : ModelSnapshot
+    [Migration("20231128200651_OneToOneSalary")]
+    partial class OneToOneSalary
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -94,7 +96,7 @@ namespace Application1.Migrations
 
             modelBuilder.Entity("Application1.Models.SalaryInfo", b =>
                 {
-                    b.Property<int>("SalaryId")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Gross")
@@ -103,7 +105,7 @@ namespace Application1.Migrations
                     b.Property<decimal>("Net")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("SalaryId");
+                    b.HasKey("Id");
 
                     b.ToTable("SalaryInfo");
                 });
@@ -123,7 +125,7 @@ namespace Application1.Migrations
                 {
                     b.HasOne("Application1.Models.Employee", "Employee")
                         .WithOne("SalaryInfo")
-                        .HasForeignKey("Application1.Models.SalaryInfo", "SalaryId")
+                        .HasForeignKey("Application1.Models.SalaryInfo", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

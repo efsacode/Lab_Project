@@ -4,6 +4,7 @@ using Application1.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Application1.Migrations
 {
     [DbContext(typeof(Application1Context))]
-    partial class Application1ContextModelSnapshot : ModelSnapshot
+    [Migration("20231128193137_SalaryClass")]
+    partial class SalaryClass
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -92,22 +94,6 @@ namespace Application1.Migrations
                     b.ToTable("Employee");
                 });
 
-            modelBuilder.Entity("Application1.Models.SalaryInfo", b =>
-                {
-                    b.Property<int>("SalaryId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Gross")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("Net")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("SalaryId");
-
-                    b.ToTable("SalaryInfo");
-                });
-
             modelBuilder.Entity("Application1.Models.Employee", b =>
                 {
                     b.HasOne("Application1.Models.Company", "Company")
@@ -119,26 +105,9 @@ namespace Application1.Migrations
                     b.Navigation("Company");
                 });
 
-            modelBuilder.Entity("Application1.Models.SalaryInfo", b =>
-                {
-                    b.HasOne("Application1.Models.Employee", "Employee")
-                        .WithOne("SalaryInfo")
-                        .HasForeignKey("Application1.Models.SalaryInfo", "SalaryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
             modelBuilder.Entity("Application1.Models.Company", b =>
                 {
                     b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("Application1.Models.Employee", b =>
-                {
-                    b.Navigation("SalaryInfo")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
