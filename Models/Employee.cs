@@ -22,6 +22,8 @@ namespace Application1.Models
         [Required(ErrorMessage = "Position is required.")]
         [MinLength(3, ErrorMessage = "Position must be at least 3 characters.")]
         public string Position { get; set; }
+        public int CompanyId { get; set; }
+        public Company Company { get; set; } = null!; 
     }
     
 

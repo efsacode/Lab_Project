@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Application1.Models;
+using Microsoft.Extensions.Hosting;
 
 namespace Application1.Data
 {
@@ -20,6 +21,7 @@ namespace Application1.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Company>();
+            
         }
     }
 }
