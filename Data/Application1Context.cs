@@ -15,5 +15,11 @@ namespace Application1.Data
         }
 
         public DbSet<Application1.Models.Employee> Employee { get; set; } = default!;
+        public DbSet<Application1.Models.Company> Company{ get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Company>();
+        }
     }
 }
