@@ -4,6 +4,7 @@ namespace Application1.Models
 {
     public class Employee
     {
+        
         public int Id { get; set; }
         
         [DataType(DataType.Date)]

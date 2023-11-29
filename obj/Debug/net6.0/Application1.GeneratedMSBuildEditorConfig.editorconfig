@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Application1
 build_property.RootNamespace = Application1
-build_property.ProjectDir = C:\Users\efsal\Desktop\Lab_Project\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\
+build_property.ProjectDir = C:\Users\efsal\Desktop\Lab_Project\Lab_Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\efsal\Desktop\Lab_Project\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854
+build_property.MSBuildProjectDirectory = C:\Users\efsal\Desktop\Lab_Project\Lab_Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employees/Create.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employees/Delete.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employees/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employees/Details.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employees/Edit.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employees/Index.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Components/LeftNavigation/Default.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Components/LeftNavigation/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ29tcG9uZW50c1xMZWZ0TmF2aWdhdGlvblxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Details.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Edit.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Index.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Summary.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Employee/Update.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Home/Index.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Home/Privacy.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Shared/DisplayTemplates/EmployeeListItem.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Shared/DisplayTemplates/EmployeeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcRW1wbG95ZWVMaXN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Shared/Error.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Shared/_Lab2Layout.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Shared/_Lab2Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYWIyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/_ViewImports.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/_ViewStart.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/efsal/Desktop/Lab_Project/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854/Views/Shared/_Layout.cshtml]
+[C:/Users/efsal/Desktop/Lab_Project/Lab_Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-paxmbreh5l

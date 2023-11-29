@@ -23,6 +23,6 @@ namespace Application1.Models
         [StringLength(60)]
         public string Country { get; set; }
 
-        public ICollection<Employee> Employee { get; } = new List<Employee>();
+        public ICollection<Employee> Employee { get; set; }
     }
 }

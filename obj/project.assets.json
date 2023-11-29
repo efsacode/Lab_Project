@@ -10692,11 +10692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj",
+      "projectUniqueName": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj",
       "projectName": "Application1",
-      "projectPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj",
+      "projectPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj",
       "packagesPath": "C:\\Users\\efsal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\obj\\",
+      "outputPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
