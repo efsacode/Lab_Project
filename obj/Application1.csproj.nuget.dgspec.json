@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj": {}
+    "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj": {
+    "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj",
+        "projectUniqueName": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj",
         "projectName": "Application1",
-        "projectPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\Application1.csproj",
+        "projectPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application1.csproj",
         "packagesPath": "C:\\Users\\efsal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Lab_Project\\obj\\",
+        "outputPath": "C:\\Users\\efsal\\Desktop\\Lab_Project\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\Application_1-3c0509c9ab00df9314adf32ed0efad991bb75854\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,15 +45,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.23, )"
+              "version": "[6.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.23, )"
+              "version": "[6.0.25, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

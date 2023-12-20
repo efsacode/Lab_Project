@@ -19,7 +19,7 @@ namespace Application1.Models
         public decimal Gross { get; set; }
 
         public Employee Employee { get; set; }
-        public int EmployeeId { get; set; }
+        public Employee EmployeeId { get; set; }
 
     }
 }

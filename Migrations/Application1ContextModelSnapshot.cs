@@ -94,10 +94,7 @@ namespace Application1.Migrations
 
             modelBuilder.Entity("Application1.Models.SalaryInfo", b =>
                 {
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmployeeIdId")
+                    b.Property<int>("SalaryId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Gross")
@@ -106,9 +103,7 @@ namespace Application1.Migrations
                     b.Property<decimal>("Net")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("EmployeeIdId");
+                    b.HasKey("SalaryId");
 
                     b.ToTable("SalaryInfo");
                 });
@@ -126,21 +121,13 @@ namespace Application1.Migrations
 
             modelBuilder.Entity("Application1.Models.SalaryInfo", b =>
                 {
-                    b.HasOne("Application1.Models.Employee", "EmployeeId")
-                        .WithMany()
-                        .HasForeignKey("EmployeeIdId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Application1.Models.Employee", "Employee")
                         .WithOne("SalaryInfo")
-                        .HasForeignKey("Application1.Models.SalaryInfo", "Id")
+                        .HasForeignKey("Application1.Models.SalaryInfo", "SalaryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Employee");
-
-                    b.Navigation("EmployeeId");
                 });
 
             modelBuilder.Entity("Application1.Models.Company", b =>

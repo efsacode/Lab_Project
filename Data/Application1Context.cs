@@ -23,19 +23,19 @@ namespace Application1.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Company>()
-                .HasKey(c => c.Id);
+            modelBuilder.Entity<Company>();
 
-            modelBuilder.Entity<Employee>()
-                .HasOne(c => c.Company)
-                .WithMany(c => c.Employee)
-                .HasForeignKey(c => c.CompanyId);
+           modelBuilder.Entity<SalaryInfo>();
+            /*     .HasOne(e => e.Employee)
+                .WithOne(e => e.SalaryInfo)
+                .HasForeignKey<SalaryInfo>(e => e.EmployeeId)
+                .IsRequired(); */
 
-            modelBuilder.Entity<Employee>()
-                .HasOne(c => c.SalaryInfo)
-                .WithOne(c => c.Employee)
-                .HasForeignKey<SalaryInfo>(c => c.Id);
-
+            modelBuilder.Entity<Employee>();
+           /*   .HasOne(e => e.SalaryInfo)
+              .WithOne(e => e.Employee)
+              .HasForeignKey<SalaryInfo>(e => e.EmployeeId)
+              .IsRequired();*/
 
         }
     }

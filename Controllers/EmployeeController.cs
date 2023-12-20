@@ -1,11 +1,45 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Application1.Models;
 using System.Text.Encodings.Web;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Application1.Controllers
+
 {
+
+    public class CustomFilter : Attribute, IActionFilter, IExceptionFilter
+    {
+        public void OnActionExecuted(ActionExecutedContext context)
+        {
+        }
+
+        public void OnActionExecuting(ActionExecutingContext context)
+        {
+            if (context.ActionDescriptor.DisplayName.Contains("Create") || context.ActionDescriptor.DisplayName.Contains("Edit"))
+            {
+                var model = context.ActionArguments["employee"] as Employee;
+
+                if (model != null)
+                {
+                    if (string.IsNullOrEmpty(model.Name) || string.IsNullOrEmpty(model.Surname))
+                    {
+                        context.ModelState.AddModelError("", "Name and Surname are required.");
+                    }
+                }
+            }
+        }
+
+        public void OnException(ExceptionContext context)
+        {
+            context.Result = new ViewResult { ViewName = "Error" };
+            context.ExceptionHandled = true;
+        }
+    }
+
+    [CustomFilter]
     public class EmployeeController : Controller
     {
+
         List<Employee> _employees;
         public EmployeeController()
         {
